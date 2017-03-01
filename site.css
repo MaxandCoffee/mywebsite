@@ -62,7 +62,7 @@ h1 {
 }
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('/images/coffeeGif.gif');
+  background-image: url('images/coffeeGif.gif');
   min-height: 100%;
 }
 /* Second image (Portfolio) */
