@@ -191,9 +191,11 @@ h1 {
 }
 @media only screen and (min-width: 601px) {
   .backPortfolio {
-    z-index: 2;
-    right: -50px;
-    top: -16px;
+        z-index: 2;
+        right: 0;
+        top: -16px;
+        background-color: transparent !important;
+        color: black !important;
   }
 }
 #id01 p {
@@ -220,6 +222,15 @@ h1 {
 }
 .imageContainer {
   display: flex;
+}
+img {
+  width: 100%;
+}
+@media only screen and (min-width: 601px) {
+  .pageImageContainer {
+    width: 50%;
+    float: left;
+  }
 }
 @media (max-width: 601px) {
   .w3-col.s6 {

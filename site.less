@@ -196,8 +196,10 @@ h1 {
     z-index: 2;
     @media only screen and (min-width: 601px) {
         z-index: 2;
-        right: -50px;
+        right: 0;
         top: -16px;
+        background-color: transparent !important;
+        color: black !important;
     }
 }
 
@@ -232,6 +234,20 @@ h1 {
 
 .imageContainer {
     display: flex;
+}
+
+.pageImageContainer < img{
+    width: 100%;
+}
+
+.pageImageContainer{
+    width: 100%;
+    
+    @media only screen and (min-width: 601px) {
+        width: 50%;
+        float:left;
+        margin: 8px;
+    }
 }
 
 @media (max-width: 601px) {
