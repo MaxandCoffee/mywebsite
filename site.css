@@ -62,17 +62,17 @@ h1 {
 }
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('/images/coffeeGif.gif');
+  background-image: url('images/coffeeGif.gif');
   min-height: 100%;
 }
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url("/images/coffeeImage2.jpg");
+  background-image: url("images/coffeeImage2.jpg");
   min-height: 400px;
 }
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url("/images/contactImage.jpg");
+  background-image: url("images/contactImage.jpg");
   min-height: 400px;
 }
 #portfolio {
