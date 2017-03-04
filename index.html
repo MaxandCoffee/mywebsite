@@ -249,8 +249,8 @@
                         <div class="w3-half">
                             <input class="w3-input w3-border" type="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="example@email.com" required name="Email"> </div>
                     </div>
-                    <input aria-hidden="true" class="honeypot" type="text">
-                    <textarea id="message" class="w3-input w3-border" pattern="^[a-zA-Z0-9_\s]*$" type="text" rows="3" maxlength="2000" placeholder="Message" required name="Message" oninvalid="this.setCustomValidity('Please Enter Only Text')" oninput="setCustomValidity('')"></textarea>
+                    <input aria-hidden="true" autocomplete="off" class="honeypot" type="text">
+                    <textarea id="message" autocomplete="off" class="w3-input w3-border" pattern="^[a-zA-Z0-9_\s]*$" type="text" rows="3" maxlength="2000" placeholder="Message" required name="Message" oninvalid="this.setCustomValidity('Please Enter Only Text')" oninput="setCustomValidity('Please, don't send a blank message!)"></textarea>
                     <button id="send-button" class="w3-btn w3-black w3-right w3-padding w3-section" type="submit"> <i class="fa fa-paper-plane"></i> SEND MESSAGE </button>
                 </form>
                 <div id="thankyouMessage">
