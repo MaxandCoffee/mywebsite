@@ -62,17 +62,17 @@ h1 {
 }
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('/images/coffeeGif.gif');
+  background-image: url('images/coffeeGif.gif');
   min-height: 100%;
 }
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url("/images/coffeeImage2.jpg");
+  background-image: url("images/coffeeImage2.jpg");
   min-height: 400px;
 }
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url("/images/contactImage.jpg");
+  background-image: url("images/contactImage.jpg");
   min-height: 400px;
 }
 #portfolio {
@@ -191,9 +191,11 @@ h1 {
 }
 @media only screen and (min-width: 601px) {
   .backPortfolio {
-    z-index: 2;
-    right: -50px;
-    top: -16px;
+        z-index: 2;
+        right: 0;
+        top: -16px;
+        background-color: transparent !important;
+        color: black !important;
   }
 }
 #id01 p {
@@ -201,6 +203,9 @@ h1 {
 }
 .designImage {
   height: 150px;
+}
+.graphicImage {
+  height: 226px;
 }
 .w3-wide {
   letter-spacing: 10px;
@@ -220,6 +225,15 @@ h1 {
 }
 .imageContainer {
   display: flex;
+}
+img {
+  width: 100%;
+}
+@media only screen and (min-width: 601px) {
+  .pageImageContainer {
+    width: 50%;
+    float: left;
+  }
 }
 @media (max-width: 601px) {
   .w3-col.s6 {
