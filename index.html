@@ -245,9 +245,9 @@
                 <form id="gform" method="post" action="https://script.google.com/macros/s/AKfycbxScMwBPH0PMoF9APAXyMyg2Wlm0PSEmirNjNfC1hUPuHZ1YK4/exec">
                     <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
                         <div class="w3-half">
-                            <input class="w3-input w3-border" type="text" id="name" pattern="^[a-zA-Z0-9_\s]*$" placeholder="Name" required name="Name" oninvalid="this.setCustomValidity('Please Enter Only Text')" oninput="setCustomValidity('')"> </div>
+                            <input class="w3-input w3-border" type="text" autocomplete="off" id="name" pattern="^[a-zA-Z0-9_\s]*$" placeholder="Name" required name="Name" oninvalid="this.setCustomValidity('Please Enter Only Text')" oninput="setCustomValidity('')"> </div>
                         <div class="w3-half">
-                            <input class="w3-input w3-border" type="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="example@email.com" required name="Email"> </div>
+                            <input class="w3-input w3-border" type="email" autocomplete="off" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="example@email.com" required name="Email"> </div>
                     </div>
                     <input aria-hidden="true" autocomplete="off" class="honeypot" type="text">
                     <textarea id="message" autocomplete="off" class="w3-input w3-border" pattern="^[a-zA-Z0-9_\s]*$" type="text" rows="3" maxlength="2000" placeholder="Message" required name="Message" oninvalid="this.setCustomValidity('Please Enter Only Text')" oninput="setCustomValidity('Please, don't send a blank message!)"></textarea>
